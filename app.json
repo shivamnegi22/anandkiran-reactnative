@@ -28,6 +28,12 @@
             "DEFAULT"
           ]
         }
+      ],
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
       ]
     },
     "web": {
@@ -41,7 +47,7 @@
     ],
     "extra": {
       "eas": {
-
+        "projectId": "8e7623a8-6e03-4c03-b9bc-18305135e9b8"
       }
     },
     "owner": "shivamnegi"
